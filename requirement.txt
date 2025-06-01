@@ -1,1 +1,8 @@
+jieba
+numpy
+scikit-learn
+transformers
+sentencepiece
+torch
+rouge
 
