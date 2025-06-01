@@ -147,4 +147,31 @@ It treats each word independently, ignoring synonymy and co-reference relationsh
 Integrating word embeddings (e.g., Word2Vec) or transformer-based similarity measures could improve the system’s performance.
 
 
+## The `data/` folder contains:
+- example_input.txt → original input texts
+- generated_output.txt → summaries produced by each method
+- rouge_scores.txt → ROUGE score evaluation results
+
+- ## Requirements
+```
+jieba
+numpy
+scikit-learn
+transformers
+sentencepiece
+torch
+rouge
+```
+
+
+## License
+This project is released under the MIT License.
+
+
+## Acknowledgements
+- Hugging Face Transformers Library
+- "TextRank: Bringing Order into Texts" by Rada Mihalcea and Paul Tarau
+- "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer" (T5 paper)
+- NLPCC 2017 Task 3 dataset
+
 
