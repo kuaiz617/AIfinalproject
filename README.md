@@ -10,10 +10,6 @@ Among the three methods, TextRank is unsupervised and requires no training data.
 Below are some example results (original Chinese text is retained for clarity).
 
 
-
-
-Here are some sample results
-
 #### Example 1：
 
 7月11日，连续强降雨，让四川登上了中央气象台“头条”，涪江绵阳段水位迅速上涨，洪水一度漫过了宝成铁路涪江大桥桥墩基座，超过封锁水位。洪水在即，中国铁路成都局集团公司紧急调集两列重载货物列车，一前一后开上涪江大桥，每一列货车重量约四千吨，用“重车压梁”的方式，增强桥梁自重，抵御汹涌的洪水。从11日凌晨开始，四川境内成都、绵阳、广元等地连续强降雨，而四川北向出川大动脉—宝成铁路，便主要途径成绵广这一区域。连续的强降雨天气下，绵阳市境内的涪江水位迅速上涨，一度危及到了宝成铁路涪江大桥的安全，上午10时，水位已经超过了涪江大桥上、下行大桥的封锁水位。记者从中国铁路成都局集团公司绵阳工务段了解到，上行线涪江大桥，全长393米，建成于1953年；下行线涪江大桥，全长438米，建成于1995年。“涪江大桥上游有一个水电站，由于洪水太大，水电站已无法发挥调节水位的作用。”情况紧急，铁路部门决定采用“重车压梁”的方式，增强桥梁自重，提高洪峰对桥墩冲刷时的梁体稳定性。简单来说，就是将重量大的货物列车开上涪江大桥，用货车的自重，帮助桥梁抵御汹涌的洪水。恰好，绵阳工务段近期正在进行线路大修，铁路专用的卸砟车，正好停放在绵阳附近。迎着汹涌的洪水，两列重载货车驶向宝成铁路涪江大桥。上午10时30分，第一列46052次货车，从绵阳北站开出进入上行涪江桥。上午11时15分，第二列22001次货车，从皂角铺站进入下行涪江桥。这是两列超过45节编组的重载货物列车，业内称铁路专用卸砟车，俗称“老K车”，车厢里装载的均为铁路道砟，每辆车的砟石的重量在70吨左右。记者从绵阳工务段了解到，货车里满载的砟石、加上一列货车的自重，两列“压桥”的货运列车，每一列的重量超过四千吨。“采用重车压梁的方式来应对水害，在平时的抢险中很少用到。”据了解，在绵阳工务段，上一次采用重车压梁，至少已经是二十年前的事。下午4时许，经铁路部门观测，洪峰过后，涪江水位开始下降，目前已经低于桥梁封锁水位。从下午4点37分开始，两列火车开始撤离涪江大桥。在桥上停留约6个小时后，两列重载货物列车成功完成了“保桥任务”，宝成铁路涪江大桥平安了！（https://m.yybnet.net/chengdu/news/201807/7713943.html）
@@ -92,7 +88,8 @@ python text_generate.py
 
 This will launch the GUI.
 
-Note: Due to the large size of the MT5 model, it has been removed from this repository. This does not affect TextRank usage. You can download the MT5 model folder here: https://drive.google.com/drive/folders/1eB2F_ZF7tDInGgHtp76ZGrBsgoe4MxbG?usp=sharing
+Note: Due to the large size of the MT5 model, it has been removed from this repository. This does not affect TextRank usage. You can download the MT5 model folder here: [https://drive.google.com/drive/folders/1eB2F_ZF7tDInGgHtp76ZGrBsgoe4MxbG?usp=sharing
+](https://drive.google.com/drive/folders/1eB2F_ZF7tDInGgHtp76ZGrBsgoe4MxbG?usp=sharing)
 
 After downloading, place the mt5-base folder in the same directory as text_generate.py, then rerun the program. Please note that MT5 generation can be slow, so be patient during processing.
 
