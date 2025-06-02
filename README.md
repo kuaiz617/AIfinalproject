@@ -137,6 +137,8 @@ TF-IDF Based: Converts each sentence into a TF-IDF vector and calculates cosine 
 
 MT5 is Google’s multilingual text-to-text Transformer model. It is pretrained on large-scale data and fine-tuned for summarization tasks. For more details, see the paper[Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://research.google/pubs/exploring-the-limits-of-transfer-learning-with-a-unified-text-to-text-transformer/)。
 
+![图4](img/output.png)
+![图5](img/output2.png)
 
 
 ## Discussion
