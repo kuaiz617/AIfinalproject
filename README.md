@@ -88,6 +88,11 @@ python text_generate.py
 
 This will launch the GUI.
 
+![图1](img/微信图片_20250601223919.png)
+![图2](img/微信图片_20250601223929.png)
+![图3](img/微信图片_20250601223940.png)
+
+
 Note: Due to the large size of the MT5 model, it has been removed from this repository. This does not affect TextRank usage. You can download the MT5 model folder here: [https://drive.google.com/drive/folders/1eB2F_ZF7tDInGgHtp76ZGrBsgoe4MxbG?usp=sharing
 ](https://drive.google.com/drive/folders/1eB2F_ZF7tDInGgHtp76ZGrBsgoe4MxbG?usp=sharing)
 
