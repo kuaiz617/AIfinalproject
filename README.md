@@ -9,6 +9,8 @@ Among the three methods, TextRank is unsupervised and requires no training data.
 
 Below are some example results (original Chinese text is retained for clarity).
 
+Quick Note: Because the MT5 model is very large, I couldn’t load it directly on my local machine in VS Code due to memory limitations. To solve this, I asked a friend of mine using her computer with sufficient memory to test the MT5 components. She successfully ran the model there, and my friend helped me retrieve the MT5 GUI results, which I have included in the project submission.
+
 
 #### Example 1：
 
