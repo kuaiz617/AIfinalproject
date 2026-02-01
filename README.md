@@ -1,4 +1,4 @@
-# AIfinalproject
+# NLPfinalproject
 ## Automatic Chinese Text Summarization
 
 This project implements automatic Chinese text summarization using three methods: (1) TextRank, (2) a modified TextRank with adjusted similarity calculations, and (3) the deep learning MT5 model. A simple GUI is also provided for ease of use.
