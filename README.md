@@ -11,6 +11,15 @@ Below are some example results (original Chinese text is retained for clarity).
 
 Quick Note: Because the MT5 model is very large, I couldn’t load it directly on my local machine in VS Code due to memory limitations. To solve this, I asked a friend of mine using her computer with sufficient memory to test the MT5 components. She successfully ran the model there, and my friend helped me retrieve the MT5 GUI results, which I have included in the project submission.
 
+## Key Observations
+
+Based on qualitative comparison across multiple examples, the three approaches show distinct characteristics:
+
+- **TextRank** produces summaries that are faithful to the original text but often redundant, as it directly extracts sentences without abstraction.
+- **TextRank + TF-IDF** improves sentence selection by emphasizing informative terms, resulting in slightly more focused summaries, though coherence remains limited.
+- **MT5** generates concise and fluent summaries that better capture the core events, but may omit important details or introduce abstraction that deviates from the original wording.
+
+Overall, the MT5 model demonstrates superior performance in semantic abstraction and readability, while TextRank-based methods remain competitive in scenarios where training data or computational resources are limited.
 
 #### Example 1：
 
